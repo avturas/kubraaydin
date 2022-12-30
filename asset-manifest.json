@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/kubraaydin/static/css/main.5c5c48d7.chunk.css",
-    "main.js": "/kubraaydin/static/js/main.a27cfb0a.chunk.js",
-    "main.js.map": "/kubraaydin/static/js/main.a27cfb0a.chunk.js.map",
+    "main.css": "/kubraaydin/static/css/main.0d55cf21.chunk.css",
+    "main.js": "/kubraaydin/static/js/main.fff4f5e5.chunk.js",
+    "main.js.map": "/kubraaydin/static/js/main.fff4f5e5.chunk.js.map",
     "runtime-main.js": "/kubraaydin/static/js/runtime-main.96071001.js",
     "runtime-main.js.map": "/kubraaydin/static/js/runtime-main.96071001.js.map",
     "static/css/2.89ce0561.chunk.css": "/kubraaydin/static/css/2.89ce0561.chunk.css",
-    "static/js/2.ff4cb79e.chunk.js": "/kubraaydin/static/js/2.ff4cb79e.chunk.js",
-    "static/js/2.ff4cb79e.chunk.js.map": "/kubraaydin/static/js/2.ff4cb79e.chunk.js.map",
+    "static/js/2.7ae650cb.chunk.js": "/kubraaydin/static/js/2.7ae650cb.chunk.js",
+    "static/js/2.7ae650cb.chunk.js.map": "/kubraaydin/static/js/2.7ae650cb.chunk.js.map",
     "static/js/3.a1c191e1.chunk.js": "/kubraaydin/static/js/3.a1c191e1.chunk.js",
     "static/js/3.a1c191e1.chunk.js.map": "/kubraaydin/static/js/3.a1c191e1.chunk.js.map",
     "index.html": "/kubraaydin/index.html",
     "static/css/2.89ce0561.chunk.css.map": "/kubraaydin/static/css/2.89ce0561.chunk.css.map",
-    "static/css/main.5c5c48d7.chunk.css.map": "/kubraaydin/static/css/main.5c5c48d7.chunk.css.map",
-    "static/js/2.ff4cb79e.chunk.js.LICENSE.txt": "/kubraaydin/static/js/2.ff4cb79e.chunk.js.LICENSE.txt",
+    "static/css/main.0d55cf21.chunk.css.map": "/kubraaydin/static/css/main.0d55cf21.chunk.css.map",
+    "static/js/2.7ae650cb.chunk.js.LICENSE.txt": "/kubraaydin/static/js/2.7ae650cb.chunk.js.LICENSE.txt",
     "static/media/3ds-max.80039d8f.svg": "/kubraaydin/static/media/3ds-max.80039d8f.svg",
     "static/media/index.css": "/kubraaydin/static/media/BestermindRegular.e58a1922.ttf",
+    "static/media/Kubra_Aydin_CV.d73f425e.pdf": "/kubraaydin/static/media/Kubra_Aydin_CV.d73f425e.pdf",
+    "static/media/Kubra_Aydin_Portfolio.31f72094.pdf": "/kubraaydin/static/media/Kubra_Aydin_Portfolio.31f72094.pdf",
     "static/media/adobe-xd.a6dca99d.svg": "/kubraaydin/static/media/adobe-xd.a6dca99d.svg",
     "static/media/adobeaudition.afa937d5.svg": "/kubraaydin/static/media/adobeaudition.afa937d5.svg",
     "static/media/after-effects.3c076652.svg": "/kubraaydin/static/media/after-effects.3c076652.svg",
@@ -121,7 +123,6 @@
     "static/media/react.2b6a0717.svg": "/kubraaydin/static/media/react.2b6a0717.svg",
     "static/media/redTheme-boy.846d9d39.svg": "/kubraaydin/static/media/redTheme-boy.846d9d39.svg",
     "static/media/redTheme-girl.1ebbd52c.svg": "/kubraaydin/static/media/redTheme-girl.1ebbd52c.svg",
-    "static/media/resume.9c5ea5a3.pdf": "/kubraaydin/static/media/resume.9c5ea5a3.pdf",
     "static/media/revit.0bd8609e.svg": "/kubraaydin/static/media/revit.0bd8609e.svg",
     "static/media/ruby.34e792ab.svg": "/kubraaydin/static/media/ruby.34e792ab.svg",
     "static/media/selenium.7dcf1c14.svg": "/kubraaydin/static/media/selenium.7dcf1c14.svg",
@@ -151,8 +152,8 @@
   "entrypoints": [
     "static/js/runtime-main.96071001.js",
     "static/css/2.89ce0561.chunk.css",
-    "static/js/2.ff4cb79e.chunk.js",
-    "static/css/main.5c5c48d7.chunk.css",
-    "static/js/main.a27cfb0a.chunk.js"
+    "static/js/2.7ae650cb.chunk.js",
+    "static/css/main.0d55cf21.chunk.css",
+    "static/js/main.fff4f5e5.chunk.js"
   ]
 }
