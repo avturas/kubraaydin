@@ -1,1 +1,365 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.png"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Portfolio Website"/><link rel="apple-touch-icon" href="/favicon.png"/><link rel="manifest" href="https://kubraaydin.com/manifest.json"/><meta name="description" content="Use Developer Portfolio and create your own personalised portfolio today! With multiple themes to choose from, our easily customisable, user friendly website is designed to cater to developers and freelancers alike."/><meta property="og:image" content="Developer Portfolio"/><meta property="og:site_name" content="Developer Portfolio"/><meta property="og:title" content="Developer Portfolio"/><meta property="og:url" content="https://dev-portfolio-template.netlify.app/"/><meta property="og:type" content="website"/><meta property="og:description" content="Use Developer Portfolio and create your own personalised portfolio today! With multiple themes to choose from, our easily customisable, user friendly website is designed to cater to developers and freelancers alike."/><meta itemprop="name" content="Developer Portfolio"/><meta itemprop="url" content="https://dev-portfolio-template.netlify.app/"/><meta itemprop="description" content="Use Developer Portfolio and create your own personalised portfolio today! With multiple themes to choose from, our easily customisable, user friendly website is designed to cater to developers and freelancers alike."/><meta itemprop="thumbnailUrl" content=""/><meta name="twitter:url" content="https://dev-portfolio-template.netlify.app/"/><meta name="twitter:title" content="Developer Portfolio"/><meta name="twitter:description" content="Use Developer Portfolio and create your own personalised portfolio today! With multiple themes to choose from, our easily customisable, user friendly website is designed to cater to developers and freelancers alike."/><meta name="twitter:card" content="summary"/><title>Portfolio</title><link href="/static/css/2.19627560.chunk.css" rel="stylesheet"><link href="/static/css/main.e1e9159c.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(e){function r(r){for(var n,i,a=r[0],c=r[1],l=r[2],p=0,s=[];p<a.length;p++)i=a[p],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&s.push(o[i][0]),o[i]=0;for(n in c)Object.prototype.hasOwnProperty.call(c,n)&&(e[n]=c[n]);for(f&&f(r);s.length;)s.shift()();return u.push.apply(u,l||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,a=1;a<t.length;a++){var c=t[a];0!==o[c]&&(n=!1)}n&&(u.splice(r--,1),e=i(i.s=t[0]))}return e}var n={},o={1:0},u=[];function i(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,i),t.l=!0,t.exports}i.e=function(e){var r=[],t=o[e];if(0!==t)if(t)r.push(t[2]);else{var n=new Promise((function(r,n){t=o[e]=[r,n]}));r.push(t[2]=n);var u,a=document.createElement("script");a.charset="utf-8",a.timeout=120,i.nc&&a.setAttribute("nonce",i.nc),a.src=function(e){return i.p+"static/js/"+({}[e]||e)+"."+{3:"a1c191e1"}[e]+".chunk.js"}(e);var c=new Error;u=function(r){a.onerror=a.onload=null,clearTimeout(l);var t=o[e];if(0!==t){if(t){var n=r&&("load"===r.type?"missing":r.type),u=r&&r.target&&r.target.src;c.message="Loading chunk "+e+" failed.\n("+n+": "+u+")",c.name="ChunkLoadError",c.type=n,c.request=u,t[1](c)}o[e]=void 0}};var l=setTimeout((function(){u({type:"timeout",target:a})}),12e4);a.onerror=a.onload=u,document.head.appendChild(a)}return Promise.all(r)},i.m=e,i.c=n,i.d=function(e,r,t){i.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},i.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,r){if(1&r&&(e=i(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(i.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)i.d(t,n,function(r){return e[r]}.bind(null,n));return t},i.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(r,"a",r),r},i.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},i.p="/",i.oe=function(e){throw console.error(e),e};var a=this["webpackJsonpdeveloper-portfolio"]=this["webpackJsonpdeveloper-portfolio"]||[],c=a.push.bind(a);a.push=r,a=a.slice();for(var l=0;l<a.length;l++)r(a[l]);var f=c;t()}([])</script><script src="/static/js/2.7ae650cb.chunk.js"></script><script src="/static/js/main.80c75253.chunk.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n="meta.title">Kübra Aydın İç Mimarlık — Uzaktan B2B İç Mimarlık Hizmetleri</title>
+<meta name="description" content="İstanbul merkezli iç mimar Kübra Aydın; işletmelere konsept tasarımdan teknik dokümantasyona, tamamen uzaktan ve online iç mimarlık ve tasarım danışmanlığı hizmetleri sunar." data-i18n-attr="content:meta.description">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+<meta property="og:title" content="Kübra Aydın İç Mimarlık">
+<meta property="og:description" content="İşletmeler için uzaktan iç mimarlık ve tasarım danışmanlığı.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a href="#top" class="wordmark">
+      <span class="wordmark-name">Kübra Aydın</span>
+      <span class="wordmark-label">İç Mimarlık</span>
+    </a>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="#about" data-i18n="nav.about">Hakkımda</a>
+      <a href="#services" data-i18n="nav.services">Hizmetler</a>
+      <a href="#process" data-i18n="nav.process">Süreç</a>
+      <a href="#portfolio" data-i18n="nav.portfolio">Projeler</a>
+      <a href="#contact" data-i18n="nav.contact">İletişim</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button type="button" class="lang-btn is-active" data-lang="tr">TR</button>
+        <span aria-hidden="true">/</span>
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <a href="#contact" class="btn btn-primary btn-small" data-i18n="nav.cta">Teklif Alın</a>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero" id="top">
+    <div class="container hero-inner">
+      <div class="hero-copy reveal">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Uzaktan &amp; Online B2B İç Mimarlık</p>
+        <h1 data-i18n="hero.title">İşletmeniz için mekanı, nerede olursanız olun stratejik bir avantaja dönüştürüyoruz.</h1>
+        <p class="hero-subtitle" data-i18n="hero.subtitle">Konsept tasarımdan teknik dokümantasyona; işletmeniz için tamamen uzaktan çalışan freelance iç mimarlık ve tasarım danışmanlığı. Video görüşmeler, dijital sunumlar ve net teslimatlarla, konumunuz fark etmeksizin birlikte çalışıyoruz.</p>
+        <div class="hero-ctas">
+          <a href="#contact" class="btn btn-primary" data-i18n="hero.cta1">Projenizi Anlatın</a>
+          <a href="#services" class="btn btn-ghost" data-i18n="hero.cta2">Hizmetleri İnceleyin</a>
+        </div>
+        <ul class="hero-tags">
+          <li data-i18n="hero.tag1">Tamamen uzaktan, online çalışma modeli</li>
+          <li data-i18n="hero.tag2">Konseptten teslimata net dijital süreç</li>
+          <li data-i18n="hero.tag3">Freelance esneklik, kurumsal güvenilirlik</li>
+        </ul>
+      </div>
+
+      <div class="hero-art reveal" aria-hidden="true">
+        <svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" class="hero-svg">
+          <rect x="20" y="20" width="440" height="440" rx="4" class="art-frame"/>
+          <line x1="20" y1="300" x2="460" y2="300" class="art-line"/>
+          <rect x="60" y="320" width="150" height="90" rx="2" class="art-line"/>
+          <line x1="60" y1="355" x2="210" y2="355" class="art-line-thin"/>
+          <circle cx="330" cy="120" r="70" class="art-line"/>
+          <line x1="330" y1="50" x2="330" y2="190" class="art-line-thin"/>
+          <line x1="260" y1="120" x2="400" y2="120" class="art-line-thin"/>
+          <path d="M270 380 Q300 320 340 380 Q360 410 320 420 Q280 410 270 380 Z" class="art-line"/>
+          <rect x="260" y="420" width="90" height="10" class="art-fill"/>
+          <line x1="80" y1="60" x2="220" y2="60" class="art-line-thick"/>
+          <line x1="80" y1="80" x2="180" y2="80" class="art-line-thin"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container about-inner">
+      <div class="about-image reveal">
+        <img src="images/kubra-aydin.jpg" alt="Kübra Aydın, İç Mimar">
+      </div>
+      <div class="about-copy reveal">
+        <p class="eyebrow" data-i18n="about.eyebrow">Hakkımda</p>
+        <h2 data-i18n="about.title">İç Mimar Kübra Aydın</h2>
+        <p data-i18n="about.p1">Kadir Has Üniversitesi İç Mimarlık ve Çevre Tasarımı bölümünden mezun oldum. Eğitimimi İrlanda'da tasarım ve görsel sanatlar alanında uluslararası programlarla derinleştirdim.</p>
+        <p data-i18n="about.p2">Bugün, tamamen uzaktan ve online çalışan bir freelance iç mimar olarak; işletmelere markalarını doğru yansıtan, işlevsel ve sürdürülebilir mekanlar tasarlıyorum. Her proje, işletmenizin markasını, çalışanlarını ve müşterilerini merkeze alan bir strateji ile başlar.</p>
+        <p data-i18n="about.p3">Kurumsal ofis ve perakende projelerinden sağlık ve wellness mekanlarına uzanan geniş bir yelpazede çalıştım; teknik tasarımların doğru şekilde sahaya aktarılmasını sağladım. Ayrıca, uluslararası müşterilere yönelik online bir iç mimarlık danışmanlığı kurup yöneterek, uzaktan çalışma modelini baştan sona deneyimledim.</p>
+
+        <div class="edu-block">
+          <p class="edu-title" data-i18n="about.expertise.title">Uzmanlık Alanları</p>
+          <div class="expertise-tags">
+            <span class="expertise-tag" data-i18n="about.expertise.1">Kurumsal Ofis &amp; Perakende Tasarımı</span>
+            <span class="expertise-tag" data-i18n="about.expertise.2">Sağlık &amp; Wellness Mekanları</span>
+            <span class="expertise-tag" data-i18n="about.expertise.3">Teknik Çizim &amp; Saha Koordinasyonu</span>
+            <span class="expertise-tag" data-i18n="about.expertise.4">Uzaktan Danışmanlık Girişimciliği</span>
+          </div>
+        </div>
+
+        <div class="edu-block">
+          <p class="edu-title" data-i18n="about.edu.title">Eğitim</p>
+          <div class="edu-item">
+            <span class="edu-school" data-i18n="about.edu1.school">Kadir Has Üniversitesi, İstanbul</span>
+            <span class="edu-course" data-i18n="about.edu1.course">İç Mimarlık ve Çevre Tasarımı, Lisans</span>
+          </div>
+          <div class="edu-item">
+            <span class="edu-school" data-i18n="about.edu2.school">GRETB, Galway / İrlanda</span>
+            <span class="edu-course" data-i18n="about.edu2.course">Tasarım &amp; Görsel Sanatlar Programları</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="services.eyebrow">Hizmetler</p>
+        <h2 data-i18n="services.title">İşletmeniz İçin Sunduğum Hizmetler</h2>
+        <p class="section-sub" data-i18n="services.subtitle">Uzaktan sunulan, kurumsal ihtiyaçlarınıza göre şekillenen tasarım hizmetleri.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 20l3-0.6L17.4 9 15 6.6 4.6 17 4 20z"/><path d="M14 6.6l3.4 3.4"/></svg>
+          <h3 data-i18n="services.1.title">Konsept Tasarım</h3>
+          <p data-i18n="services.1.desc">Markanızı yansıtan mekan konseptleri ve tasarım yönü.</p>
+        </div>
+        <div class="service-card reveal">
+          <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3.5" y="3.5" width="17" height="17"/><line x1="12" y1="3.5" x2="12" y2="20.5"/><line x1="3.5" y1="12" x2="20.5" y2="12"/></svg>
+          <h3 data-i18n="services.2.title">Mekan Planlama &amp; Yerleşim</h3>
+          <p data-i18n="services.2.desc">Verimli, işlevsel yerleşim ve akış çözümleri.</p>
+        </div>
+        <div class="service-card reveal">
+          <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M4 7.5L12 12l8-4.5"/><line x1="12" y1="12" x2="12" y2="21"/></svg>
+          <h3 data-i18n="services.3.title">3D Görselleştirme</h3>
+          <p data-i18n="services.3.desc">Kararlarınızı kolaylaştıran fotogerçekçi render ve sunumlar.</p>
+        </div>
+        <div class="service-card reveal">
+          <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="5" y="4" width="14" height="17" rx="1"/><rect x="9" y="2.5" width="6" height="3" rx="0.5"/><line x1="8" y1="10" x2="16" y2="10"/><line x1="8" y1="13.5" x2="16" y2="13.5"/><line x1="8" y1="17" x2="13" y2="17"/></svg>
+          <h3 data-i18n="services.4.title">Teknik Çizim &amp; Dokümantasyon</h3>
+          <p data-i18n="services.4.desc">Uygulamaya hazır plan, kesit ve şartname setleri.</p>
+        </div>
+        <div class="service-card reveal">
+          <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M5 12v6a1 1 0 0 0 1 1h1v-4h10v4h1a1 1 0 0 0 1-1v-6"/><path d="M5 12a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3"/><line x1="6" y1="19" x2="6" y2="21"/><line x1="18" y1="19" x2="18" y2="21"/></svg>
+          <h3 data-i18n="services.5.title">Mobilya &amp; Malzeme Danışmanlığı</h3>
+          <p data-i18n="services.5.desc">Bütçenize ve markanıza uygun mobilya, malzeme ve tedarikçi önerileri.</p>
+        </div>
+        <div class="service-card reveal">
+          <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+          <h3 data-i18n="services.6.title">Marka Kimliğine Uygun Tasarım Sistemleri</h3>
+          <p data-i18n="services.6.desc">Birden fazla lokasyonda tutarlı, markanıza özel tasarım dili.</p>
+        </div>
+        <div class="service-card reveal">
+          <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 5h16v11H8.5L4 20V5z"/></svg>
+          <h3 data-i18n="services.7.title">Tasarım Danışmanlığı</h3>
+          <p data-i18n="services.7.desc">Mevcut projeleriniz için uzman görüşü ve yönlendirme.</p>
+        </div>
+        <div class="service-card reveal">
+          <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="4" y="5" width="16" height="10" rx="1"/><line x1="2" y1="18" x2="22" y2="18"/><path d="M9.3 9.3a3.8 3.8 0 0 1 5.4 0"/><circle cx="12" cy="11.8" r="0.6" fill="currentColor" stroke="none"/></svg>
+          <h3 data-i18n="services.8.title">Uzaktan Proje Desteği</h3>
+          <p data-i18n="services.8.desc">Yerel ekibinizle koordineli, uygulama sürecinde uzaktan tasarım desteği.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="process" id="process">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="process.eyebrow">Süreç</p>
+        <h2 data-i18n="process.title">Birlikte Nasıl Çalışıyoruz</h2>
+        <p class="section-sub" data-i18n="process.subtitle">Keşiften teslime, tamamen online ve net bir süreç.</p>
+      </div>
+
+      <ol class="process-list">
+        <li class="process-item reveal">
+          <span class="process-num">01</span>
+          <div>
+            <h3 data-i18n="process.1.title">Keşif &amp; Brief</h3>
+            <p data-i18n="process.1.desc">Video görüşme ile işletmenizi, hedeflerinizi ve kısıtlarınızı dinliyoruz.</p>
+          </div>
+        </li>
+        <li class="process-item reveal">
+          <span class="process-num">02</span>
+          <div>
+            <h3 data-i18n="process.2.title">Konsept Tasarım</h3>
+            <p data-i18n="process.2.desc">Mekan stratejisi ve ilk tasarım yönelimini birlikte belirliyoruz.</p>
+          </div>
+        </li>
+        <li class="process-item reveal">
+          <span class="process-num">03</span>
+          <div>
+            <h3 data-i18n="process.3.title">Tasarım Geliştirme</h3>
+            <p data-i18n="process.3.desc">Plan, malzeme ve mobilya kararlarını netleştiriyoruz.</p>
+          </div>
+        </li>
+        <li class="process-item reveal">
+          <span class="process-num">04</span>
+          <div>
+            <h3 data-i18n="process.4.title">Teknik Çizim &amp; Dokümantasyon</h3>
+            <p data-i18n="process.4.desc">Uygulamaya hazır çizim ve şartname setini hazırlıyoruz.</p>
+          </div>
+        </li>
+        <li class="process-item reveal">
+          <span class="process-num">05</span>
+          <div>
+            <h3 data-i18n="process.5.title">Teslim &amp; Uzaktan Destek</h3>
+            <p data-i18n="process.5.desc">Tüm dosyaları dijital olarak teslim ediyor, uygulama sürecinde uzaktan destek sağlıyoruz.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="why">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="why.eyebrow">Neden Biz</p>
+        <h2 data-i18n="why.title">Kurumsal Müşteriler Neden Bizi Tercih Ediyor</h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-card reveal">
+          <span class="why-mark"></span>
+          <h3 data-i18n="why.1.title">Doğrudan Uzmanlık</h3>
+          <p data-i18n="why.1.desc">Aracı olmadan, doğrudan tasarımcıyla çalışırsınız.</p>
+        </div>
+        <div class="why-card reveal">
+          <span class="why-mark"></span>
+          <h3 data-i18n="why.2.title">Bütçe ve Zaman Kontrolü</h3>
+          <p data-i18n="why.2.desc">Net planlama ile sürprizsiz bir proje süreci.</p>
+        </div>
+        <div class="why-card reveal">
+          <span class="why-mark"></span>
+          <h3 data-i18n="why.3.title">Markanıza Uygun Tasarım</h3>
+          <p data-i18n="why.3.desc">Mekan, kurumsal kimliğinizi ve müşteri deneyiminizi yansıtır.</p>
+        </div>
+        <div class="why-card reveal">
+          <span class="why-mark"></span>
+          <h3 data-i18n="why.4.title">Esnek, Uzaktan İşbirliği</h3>
+          <p data-i18n="why.4.desc">Video görüşmeler ve dijital araçlarla, konumunuzdan bağımsız kesintisiz işbirliği.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skill/offer showcase placeholders: swap art panels + copy for real case studies once available. -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="portfolio.eyebrow">Yetenekler</p>
+        <h2 data-i18n="portfolio.title">Neler Sunabilirim</h2>
+        <p class="section-sub" data-i18n="portfolio.subtitle">Sunduğum hizmetlerden örnek çalışma alanları — vaka çalışmaları yakında.</p>
+      </div>
+
+      <div class="portfolio-grid">
+        <div class="portfolio-card reveal">
+          <div class="portfolio-art">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M4 20l3-0.6L17.4 9 15 6.6 4.6 17 4 20z"/><path d="M14 6.6l3.4 3.4"/></svg>
+          </div>
+          <p class="portfolio-tag" data-i18n="portfolio.1.tag">Erken Faz Tasarım</p>
+          <h3 data-i18n="portfolio.1.title">Konsept Tasarım</h3>
+        </div>
+        <div class="portfolio-card reveal">
+          <div class="portfolio-art">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="3.5" y="3.5" width="17" height="17"/><line x1="12" y1="3.5" x2="12" y2="20.5"/><line x1="3.5" y1="12" x2="20.5" y2="12"/></svg>
+          </div>
+          <p class="portfolio-tag" data-i18n="portfolio.2.tag">Yerleşim &amp; Akış</p>
+          <h3 data-i18n="portfolio.2.title">Mekan Planlama</h3>
+        </div>
+        <div class="portfolio-card reveal">
+          <div class="portfolio-art">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M4 7.5L12 12l8-4.5"/><line x1="12" y1="12" x2="12" y2="21"/></svg>
+          </div>
+          <p class="portfolio-tag" data-i18n="portfolio.3.tag">Fotogerçekçi Sunum</p>
+          <h3 data-i18n="portfolio.3.title">3D Görselleştirme</h3>
+        </div>
+        <div class="portfolio-card reveal">
+          <div class="portfolio-art">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+          </div>
+          <p class="portfolio-tag" data-i18n="portfolio.4.tag">Çoklu Lokasyon Tutarlılığı</p>
+          <h3 data-i18n="portfolio.4.title">Tasarım Sistemi</h3>
+        </div>
+      </div>
+      <p class="portfolio-note" data-i18n="portfolio.note">Yeni vaka çalışmaları yakında eklenecek.</p>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container contact-inner">
+      <div class="contact-copy reveal">
+        <p class="eyebrow" data-i18n="contact.eyebrow">İletişim</p>
+        <h2 data-i18n="contact.title">Projenizi Konuşalım</h2>
+        <p class="section-sub" data-i18n="contact.subtitle">Kurumsal mekan projeniz için ihtiyaçlarınızı iletin, en kısa sürede dönüş yapalım.</p>
+      </div>
+
+      <div class="contact-card reveal">
+        <p class="contact-card-label" data-i18n="contact.info.title">İletişim Bilgileri</p>
+        <a href="mailto:kubra@kubraaydin.com" class="contact-card-email">kubra@kubraaydin.com</a>
+        <div class="contact-card-divider"></div>
+        <div class="contact-card-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 21s-7-6.1-7-11a7 7 0 0 1 14 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.4"/></svg>
+          <span data-i18n="contact.info.location">İstanbul, Türkiye — Uzaktan çalışılır</span>
+        </div>
+        <div class="contact-socials">
+          <a href="https://www.linkedin.com/in/aydinkubra/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 5a1.94 1.94 0 1 1-3.88 0 1.94 1.94 0 0 1 3.88 0zM3.5 8.75h3.4V20h-3.4V8.75zM9.5 8.75h3.26v1.54h.05c.45-.86 1.56-1.77 3.22-1.77 3.44 0 4.07 2.27 4.07 5.22V20h-3.4v-5.62c0-1.34-.02-3.06-1.87-3.06-1.87 0-2.16 1.46-2.16 2.96V20H9.5V8.75z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/kubraserbetciaydin/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="0.9" fill="currentColor" stroke="none"/></svg>
+          </a>
+        </div>
+        <a href="mailto:kubra@kubraaydin.com" class="btn btn-primary contact-card-btn" data-i18n="contact.cta">E-posta Gönder</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="#top" class="wordmark">
+        <span class="wordmark-name">Kübra Aydın</span>
+        <span class="wordmark-label">İç Mimarlık</span>
+      </a>
+      <p data-i18n="footer.tagline">İşletmeler için uzaktan iç mimarlık ve tasarım danışmanlığı.</p>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-title" data-i18n="footer.nav.title">Bağlantılar</p>
+      <a href="#about" data-i18n="nav.about">Hakkımda</a>
+      <a href="#services" data-i18n="nav.services">Hizmetler</a>
+      <a href="#process" data-i18n="nav.process">Süreç</a>
+      <a href="#portfolio" data-i18n="nav.portfolio">Projeler</a>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-title" data-i18n="footer.contact.title">İletişim</p>
+      <a href="mailto:kubra@kubraaydin.com">kubra@kubraaydin.com</a>
+      <p data-i18n="contact.info.location">İstanbul, Türkiye — Uzaktan çalışılır</p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>&copy; <span id="year">2026</span> Kübra Aydın İç Mimarlık. <span data-i18n="footer.rights">Tüm hakları saklıdır.</span></p>
+  </div>
+</footer>
+
+<button type="button" class="back-to-top" id="back-to-top" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="6 11 12 5 18 11"/></svg>
+</button>
+
+<script src="js/translations.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
